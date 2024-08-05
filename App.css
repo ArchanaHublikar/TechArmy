@@ -1,0 +1,78 @@
+
+.SideMenu{
+    height: 100%;
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.PageContent{
+    padding-left: 12px;
+}
+
+/* General App Styles */
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30 0%, #243b55 100%); /* Dark gradient background */
+    color: #ffffff; /* Font color for the entire app */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+/* Header Styles */
+.AppHeader {
+    height: 60px; /* Increased height for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px; /* Added padding for better spacing */
+    border-bottom: 2px solid #000000; /* Dark black border */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background */
+    color: #ffffff; /* Font color for header */
+}
+
+/* Footer Styles */
+.AppFooter {
+    height: 60px; /* Increased height for better spacing */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid #000000; /* Dark black border */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background */
+    color: #ffffff; /* Font color for footer */
+}
+
+/* Flex Boxes and Content Area Styles */
+.SideMenuAndPageContent {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.1); /* Darker background for better contrast */
+    border: 2px solid #000000; /* Dark black border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Added padding */
+    color: #ffffff; /* Font color for flex boxes */
+}
+
+.SideMenu {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Darker background */
+    border-right: 2px solid #000000; /* Dark black border */
+    color: #ffffff; /* Font color for side menu */
+}
+
+.SideMenuVertical {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Darker background */
+    border-right: 2px solid #000000; /* Dark black border */
+    color: #ffffff; /* Font color for side menu */
+}
+
+.PageContent {
+    padding-left: 20px; /* Increased padding for better spacing */
+    background-color: rgba(0, 0, 0, 0.2); /* Darker background */
+    border-radius: 8px; /* Rounded corners */
+    color: #ffffff; /* Font color for page content */
+}

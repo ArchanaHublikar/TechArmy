@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.dashboard-container {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(212, 100%, 79%) 100%);
+    color: #070606;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+}
+
+.dashboard-subtitle {
+    color: #bbbbbb;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Added gap for spacing between cards */
+}
+
+.dashboard-card {
+    background-color: rgba(255, 255, 255, 0.658);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #1b1a1a;
+    padding: 15px; /* Added padding for better content spacing */
+}
+
+.dashboard-icon {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 12px; /* Increased padding for larger icons */
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-statistic {
+    color: #ffffff;
+    font-size: 18px; /* Added font-size for consistency */
+}
+
+.recent-orders-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.table-column {
+    color: #ffffff;
+}
+
+.recent-orders-table {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow-x: auto; /* Added for better table overflow handling */
+}
+
+.dashboard-chart-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px; /* Added padding for chart card content */
+}
+
+.dashboard-chart {
+    height: 250px;
+    width: 100%; /* Ensured full-width for charts */
+}
+
+/* Set background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #141e30 0%, #243b55 100%);
+    color: white; /* Optional: Sets text color to white for better contrast */
+  }
+  
+  /* Optional: Ensure container elements fill the viewport height */
+  html, body {
+    height: 100%;
+  }
+  
+  .container {
+    min-height: 100vh; /* Ensure container takes at least full viewport height */
+    display: flex;
+    flex-direction: column;
+  }

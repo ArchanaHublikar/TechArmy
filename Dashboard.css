@@ -1,0 +1,78 @@
+
+.dashboard-container {
+    background: linear-gradient(135deg, #6fa1ff 0%, #243b55 100%);
+    color: #ffffff;
+    padding: 90px;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+}
+
+.dashboard-subtitle {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Added gap for spacing between cards */
+}
+
+.dashboard-card {
+    background-color: hwb(0 46% 5% / 0.1);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    padding: 70px; /* Added padding for better content spacing */
+}
+
+.dashboard-icon {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 12px; /* Increased padding for larger icons */
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-statistic {
+    color: #ffffff;
+    font-size: 18px; /* Added font-size for consistency */
+}
+
+.recent-orders-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.table-column {
+    color: #ffffff;
+}
+
+.recent-orders-table {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow-x: auto; /* Added for better table overflow handling */
+}
+
+.dashboard-chart-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px; /* Added padding for chart card content */
+}
+
+.dashboard-chart {
+    height: 250px;
+    width: 100%; /* Ensured full-width for charts */
+}
